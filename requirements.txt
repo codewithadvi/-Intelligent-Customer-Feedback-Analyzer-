@@ -1,0 +1,21 @@
+bertopic
+collections
+contractions
+datasets
+emoji
+evaluate
+joblib==1.4.2
+matplotlib==3.6.3
+nltk==3.9.1
+numpy==1.24.0
+pandarallel
+pandas==1.5.3
+re
+seaborn==0.11.2
+sentence_transformers
+sklearn
+streamlit
+transformers
+wordcloud==1.9.2
+requests==2.26.0   # Add requests to handle HTTP requests
+torch==1.10.0      # Add if you're using PyTorch models
