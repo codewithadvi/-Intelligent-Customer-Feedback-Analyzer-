@@ -1,20 +1,19 @@
-bertopic==0.13.0             # Specific version for compatibility
-contractions==0.0.50         # Specify the version for compatibility
-datasets==2.7.0              # Stable version for Hugging Face datasets
-emoji==1.7.0                 # Latest stable version
-evaluate==0.3.0              # Ensure compatibility with other dependencies
-joblib==1.4.2                # Keep the specified version
-matplotlib==3.6.3            # Compatible version with other libraries
-nltk==3.9.1                  # Specified version
-numpy==1.24.0                # Ensure compatibility with torch
-pandarallel==1.5.4           # Specified version for parallelism
-pandas==1.5.3                # Specified version
-re                           # Python standard library (no need to install)
-seaborn==0.11.2              # Stable version
-sentence_transformers==2.2.0 # Latest stable version
-scikit-learn==1.0.2          # Updated version compatible with other libraries
-streamlit==1.18.0            # Latest stable version of streamlit
-transformers==4.18.0         # Compatible version with torch and sentence-transformers
-wordcloud==1.9.2             # Specified version
-requests==2.26.0             # Specified version
-torch==1.10.0                # Compatible with the rest of the libraries
+bertopic==0.13.0
+contractions==0.0.50
+datasets==2.7.0
+emoji==1.7.0
+evaluate==0.3.0
+joblib==1.4.2
+matplotlib==3.6.3
+nltk==3.9.1
+numpy==1.24.0
+pandarallel==1.5.4
+pandas==1.5.3
+seaborn==0.11.2
+sentence_transformers==2.2.0
+scikit-learn==1.0.2
+streamlit==1.18.0
+transformers==4.18.0
+wordcloud==1.9.2
+requests==2.26.0
+torch==1.10.0
