@@ -1,32 +1,18 @@
-# Ensure latest pip and setuptools
-pip>=23.0
-setuptools>=65.5.0
-
-# Core dependencies
-wheel>=0.38.0
-
-# Add your specific package dependencies here
-requests>=2.28.0
-numpy>=1.24.0
-pandas>=1.5.0
-
-# Package versions compatible with Python 3.12
-torch==2.0.1  # Compatible with Python 3.12
-transformers==4.18.0
-sentence_transformers==2.2.0
-seaborn==0.11.2
-scikit-learn==1.0.2
-matplotlib==3.6.3
-joblib==1.4.2
-datasets==2.7.0
-bertopic==0.13.0
-contractions==0.0.50
-emoji==1.7.0
-evaluate==0.3.0
-nltk==3.9.1
-pandarallel==1.5.4
-wordcloud==1.9.2
-streamlit==1.18.0
-
-# Specify Python version compatibility
-python_version >= "3.8, <3.12"
+bertopic
+collections
+contractions
+datasets
+emoji
+evaluate
+joblib
+matplotlib
+nltk
+numpy
+pandarallel
+pandas
+seaborn
+sentence-transformers
+scikit-learn
+streamlit
+transformers
+wordcloud
