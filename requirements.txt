@@ -1,5 +1,4 @@
 bertopic
-collections
 contractions
 datasets
 emoji
