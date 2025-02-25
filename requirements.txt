@@ -1,18 +1,21 @@
-bertopic
-collections
-contractions
-datasets
-emoji
-evaluate
-joblib
-matplotlib
-nltk
-numpy
-pandarallel
-pandas
-seaborn
-sentence-transformers
-scikit-learn
-streamlit
-transformers
-wordcloud
+# Ensure latest pip and setuptools
+pip>=23.0
+setuptools>=65.5.0
+
+# Core dependencies for building and packaging
+wheel>=0.38.0
+
+# Specific package dependencies (ensure they are compatible with Python 3.12)
+requests==2.28.0
+numpy==1.24.0
+pandas==1.5.0
+
+# Optional but useful for deployment
+streamlit==1.20.0
+
+# Machine Learning dependencies (if you're using them)
+scikit-learn==1.1.2
+matplotlib==3.4.0
+
+# Python version compatibility
+python_version >= "3.8, <3.12"
