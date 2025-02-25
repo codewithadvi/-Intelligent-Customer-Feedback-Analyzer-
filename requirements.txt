@@ -1,20 +1,20 @@
-bertopic
-contractions
-datasets
-emoji
-evaluate
-joblib==1.4.2
-matplotlib==3.6.3
-nltk==3.9.1
-numpy==1.24.0
-pandarallel
-pandas==1.5.3
-re
-seaborn==0.11.2
-sentence_transformers
-sklearn
-streamlit
-transformers
-wordcloud==1.9.2
-requests==2.26.0   # Add requests to handle HTTP requests
-torch==1.10.0      # Add if you're using PyTorch models
+bertopic==0.13.0         # Specific version for compatibility
+contractions==0.0.50     # Specify the version for compatibility
+datasets==2.7.0          # Stable version for Hugging Face datasets
+emoji==1.7.0             # Latest stable version
+evaluate==0.3.0          # Ensure compatibility with other dependencies
+joblib==1.4.2            # Keep the specified version
+matplotlib==3.6.3        # Matplotlib version compatible with other libraries
+nltk==3.9.1              # Specified version
+numpy==1.24.0            # Make sure numpy version is compatible with torch
+pandarallel==1.5.4       # Specified version for parallelism
+pandas==1.5.3            # Specified version
+re                       # Python standard library (no need to install)
+seaborn==0.11.2          # Stable version
+sentence_transformers==2.2.0  # Latest stable version
+scikit-learn==1.0.2      # Updated version compatible with other libraries
+streamlit==1.18.0        # Latest stable version of streamlit
+transformers==4.18.0     # Version compatible with torch and sentence-transformers
+wordcloud==1.9.2         # Specified version
+requests==2.26.0         # Specified version
+torch==1.10.0            # Compatible with the rest of the libraries
