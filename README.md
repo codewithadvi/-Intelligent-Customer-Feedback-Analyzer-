@@ -109,6 +109,9 @@ While the model and sentiment analysis pipeline work perfectly, I encountered an
 - **F1 Score**: 93.75%
 - **IoU (Jaccard score)**: 88.13%
 
+- <img width="575" alt="image" src="https://github.com/user-attachments/assets/d3893a0f-6fe2-4abe-bb2d-3bcf4ddb40e1" />
+
+
 ### **Sentiment Analysis Metrics**:
 - **VADER Sentiment Accuracy**: Evaluated on test data, showcasing the lexicon-based accuracy in quick sentiment classification.
 - **DistilBERT Fine-Tuned Accuracy**: 93.75% accuracy achieved, demonstrating the transformer-based model's fine-tuned performance.
