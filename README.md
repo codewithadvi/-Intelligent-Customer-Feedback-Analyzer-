@@ -36,6 +36,10 @@ One of the standout features of the **Intelligent Customer Feedback Analyzer** i
      - **Clustering** with **HDBSCAN** for grouping topics.
      - **Topic Representation** via **c-TF-IDF** for extracting keywords associated with each topic.
      - **Enhancement** of topics using transformer-based embeddings for more accurate and contextual clustering.
+     - <img width="502" alt="image" src="https://github.com/user-attachments/assets/1f340190-4322-48e7-9a91-894b58ef759d" />
+     <img width="488" alt="image" src="https://github.com/user-attachments/assets/5f069718-9121-437f-92a4-5b88c382f66f" />
+
+
 
 3. **Recommendation System**:
    - Generates **similar reviews** based on topics using **Cosine Similarity** and **Sentence Embeddings**.
@@ -47,27 +51,42 @@ The analysis is broken down into the following key steps:
 
 ### 1. **Text Preprocessing & Sentiment Analysis**
    - **Data Loading**: Customer reviews are loaded and preprocessed for further analysis.
+   - <img width="471" alt="image" src="https://github.com/user-attachments/assets/22dbb722-f1b3-4a44-9b98-eff5d5818d93" />
+
    - **Sentiment Analysis**: 
      - **VADER Sentiment Analyzer** is used for lexicon-based sentiment classification.
      - **DistilBERT** is fine-tuned on the Amazon Reviews dataset for higher accuracy and better sentiment classification.
 
 #### **Advanced Preprocessing**
    - **Emoji Handling**: Emojis are preprocessed by converting them into their respective textual descriptions. This enhances the sentiment analysis by accounting for the emotional tone conveyed by emojis.
+   - <img width="510" alt="image" src="https://github.com/user-attachments/assets/49251e47-53ff-47e8-986a-343efe099325" />
+
    - **Negation Handling**: Negation words (e.g., "not", "never") are specially handled to avoid misinterpretation of sentiment.
+   - <img width="555" alt="image" src="https://github.com/user-attachments/assets/6f200c91-04e0-4d94-9795-81dc000e4567" />
+
    - **Bigrams**: Bigrams (two consecutive words) are extracted to capture commonly used phrases that might convey more meaning than single words.
+   - <img width="698" alt="image" src="https://github.com/user-attachments/assets/4447b07f-06d9-460f-afe1-a6e38e162b7e" />
+
    - **Word Cloud Generation**: Visualizations of frequent words provide insight into common themes across feedback.
    - **Stopword Removal**: Common, non-informative words (like "the", "is", etc.) are removed to focus on important content.
 
 ### 2. **Topic Modeling with BERTopic**
    - **Feature Extraction**: Text is vectorized using **CountVectorizer** to convert reviews into numerical features.
+   - <img width="332" alt="image" src="https://github.com/user-attachments/assets/edf0a2e1-2f6c-4a66-a26c-fc46e4a31600" />
    - **Dimensionality Reduction**: **UMAP** reduces the dimensionality of embeddings to make topic identification easier.
    - **Clustering**: **HDBSCAN** is used for clustering reviews based on topics.
    - **Topic Representation**: **c-TF-IDF** is used to extract important keywords for each topic.
+   <img width="520" alt="image" src="https://github.com/user-attachments/assets/1ab5fb0c-1be5-4dc5-adb5-612457ad21ef" />
    - **Enhancing Topics**: Transformer-based embeddings enhance the clustering, providing more accurate topic representation.
 
 ### 3. **Recommendation System**
    - **Topic Matching**: Reviews are assigned to topics, and **Sentence Transformers** compute embeddings to find similarities between reviews.
+   - <img width="589" alt="image" src="https://github.com/user-attachments/assets/d258f1bf-89a2-4b20-b133-a7578b340b82" />
+
    - **Cosine Similarity**: This metric is used to match reviews based on topic keywords.
+   - <img width="339" alt="image" src="https://github.com/user-attachments/assets/437eb077-5ecc-413e-b6a1-637fbda435da" />
+<img width="377" alt="image" src="https://github.com/user-attachments/assets/0c0ac431-33d1-4eb4-b0e4-11a48b7a6868" />
+
    - **Customization**: Users can tweak the alpha value for similarity balance and adjust the threshold for topic relevance.
    - **Joblib Saving**: All models are saved as joblib files for easy reuse without the need for retraining.
 
