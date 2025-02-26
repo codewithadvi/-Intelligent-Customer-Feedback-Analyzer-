@@ -1,5 +1,4 @@
-<img width="592" alt="image" src="https://github.com/user-attachments/assets/cadd72a7-9faf-4a0b-8765-5388acecea3c" /># Intelligent Customer Feedback Analyzer
-
+# Intelligent Customer Feedback Analyzer
 ## **Project Overview**
 ### How It Will Help
 
@@ -119,7 +118,7 @@ You can use these files in your environment by downloading them and loading them
 ### **Next Steps**:
 1. **Streamlit Dashboard Enhancement**: The next exciting phase of the project is to enhance the Streamlit dashboard, transforming it into a **real-time, interactive interface**. This dashboard will feature multiple dynamic data visualizations, providing users with an intuitive and comprehensive view of customer feedback insights. With real-time updates, businesses will be able to track sentiment, discover emerging trends, and receive actionable insights at a glance. By resolving the requirements.txt and dependency issues, we will ensure smooth integration, enabling seamless user interaction and more robust data exploration capabilities. The final goal is to deliver a fully functional, user-friendly dashboard that empowers businesses to monitor and analyze customer feedback in a visually compelling and actionable manner, improving decision-making and operational efficiency.
 
-<img width="592" alt="image" src="https://github.com/user-attachments/assets/0f779600-4850-47ce-bdab-c7aecb7d97d0" />
+<img width="592" alt="image" src="https://github.com/user-attachments/assets/cadd72a7-9faf-4a0b-8765-5388acecea3c" />
 
 
 2. **Scalability**: Improve the processing time and scalability of the pipeline for large datasets by optimizing memory usage and inference speed.
