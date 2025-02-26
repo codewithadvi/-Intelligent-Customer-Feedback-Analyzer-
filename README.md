@@ -39,8 +39,6 @@ One of the standout features of the **Intelligent Customer Feedback Analyzer** i
      - <img width="502" alt="image" src="https://github.com/user-attachments/assets/1f340190-4322-48e7-9a91-894b58ef759d" />
      <img width="488" alt="image" src="https://github.com/user-attachments/assets/5f069718-9121-437f-92a4-5b88c382f66f" />
 
-
-
 3. **Recommendation System**:
    - Generates **similar reviews** based on topics using **Cosine Similarity** and **Sentence Embeddings**.
    - Customizable similarity balancing and topic thresholding to fine-tune results.
@@ -52,7 +50,6 @@ The analysis is broken down into the following key steps:
 ### 1. **Text Preprocessing & Sentiment Analysis**
    - **Data Loading**: Customer reviews are loaded and preprocessed for further analysis.
    - <img width="471" alt="image" src="https://github.com/user-attachments/assets/22dbb722-f1b3-4a44-9b98-eff5d5818d93" />
-
    - **Sentiment Analysis**: 
      - **VADER Sentiment Analyzer** is used for lexicon-based sentiment classification.
      - **DistilBERT** is fine-tuned on the Amazon Reviews dataset for higher accuracy and better sentiment classification.
