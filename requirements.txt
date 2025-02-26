@@ -21,4 +21,4 @@ rich>=10.14.0
 markdown-it-py>=2.2.0
 pygments>=2.13.0
 requests
-gdown
+gdown==4.7.0  # Updated to the latest version for compatibility
