@@ -9,6 +9,7 @@ The analyzer leverages state-of-the-art technologies such as **DistilBERT** for 
 1. **Sentiment Analysis**:
    - **VADER Sentiment Analyzer**: A lexicon-based approach for analyzing sentiment.
    - **DistilBERT Sentiment Analysis**: A transformer-based approach for fine-grained sentiment classification using a fine-tuned DistilBERT model.
+
    
 2. **Topic Modeling**:
    - Uses **BERTopic** for extracting meaningful topics from customer feedback, with features like:
@@ -70,12 +71,19 @@ The analysis is broken down into the following key steps:
 
 ## **Deployment**
 The model is deployed using **Streamlit** for real-time customer feedback analysis. However, the **joblib** files are too large to upload to GitHub, so I've provided **Google Drive links** to access these files directly. You can download the joblib files and use them in your environment.
+## **Google Drive Links for Joblib Files**
+
+The model's **joblib** files, which are too large to upload to GitHub, are available for download from the following **Google Drive** link. This contains all three joblib files required for the sentiment analysis and recommendation system pipeline.
+
+[Download Joblib Files from Google Drive](https://drive.google.com/drive/folders/1x9II7BGCidEcaM1strWCy9KTcoRWhyz5?usp=sharing)
+
+You can use these files in your environment by downloading them and loading them into your project. Make sure to place them in the appropriate directories and load them using `joblib.load()` when running the model.
 
 ### **Deployment Issues**:
 While the model and sentiment analysis pipeline work perfectly, I encountered an issue with the **requirements.txt** file, which prevents the Streamlit dashboard from running as intended. Due to dependency issues, the dashboard is not currently functional. If time permits, I will resolve these issues and make the Streamlit interface work smoothly.
 
 ### **Next Steps**:
-1. **Fixing Deployment**: Resolve the requirements.txt and dependency issues to get the Streamlit dashboard working.
+1. **Fixing Deployment**: Resolve the requirements.txt and dependency issues to get the Streamlit dashboard working.(Make it a real time Dashboard ith many datas visualizations and feautures.
 2. **Scalability**: Improve the processing time and scalability of the pipeline for large datasets by optimizing memory usage and inference speed.
 3. **Model Enhancement**: Continue to refine the sentiment analysis model and BERTopic topic modeling for better accuracy and context.
 
