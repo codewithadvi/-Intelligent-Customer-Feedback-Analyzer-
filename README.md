@@ -145,14 +145,53 @@ You can use these files in your environment by downloading them and loading them
 - **Jaccard Score (IoU)**: The Jaccard score of 88.13% confirms the fine-grained capability of the model to capture sentiment accurately, even in cases with high word overlap.
 
 ## **Installation Instructions**
-1. Clone the repository:
-   ```bash
-   git clone <repository-link>
-   cd <repository-name>
+## Installation
 
-2. pip install -r requirements.txt
-3. Download the joblib files from the provided Google Drive links.
-Run the Streamlit dashboard:
-streamlit run app.py
+This application requires Python 3.8 or later.
+
+1.  Clone the Repository:
+
+git clone https://github.com/codewithadvi/-Intelligent-Customer-Feedback-Analyzer-
+    
+2.  Create a Virtual Environment (Recommended):
+    python -m venv venv
+    source venv/bin/activate  # On macOS/Linux
+    venv\Scripts\activate  # On Windows
+    
+3.  Install Dependencies:
+
+    pip install -r requirements.txt
+   
+4. Obtain and Place the Models:
+
+    * The AI  models used by this application are located in the models/ directory.
+
+    * Place the model files within the models/ directory.
+
+5.  Load the Models/ Download the joblib files 
+ -   Under the models download the joblib files containing the trained models.
+ -   python scripts/load_models.py
+    
+6.  Run the Application:
+
+    * To start the web application:
+        
+        python app.py
+        
+    The application will be accessible at http://127.0.0.1:5000/ by default.
+
+    * To run the analysis script directly:
+        
+        python app/main.py
+        
+7.  Jupyter notebook:
+
+    * To run the analysis notebook:
+        
+        jupyter notebook script.ipynb
+
+8.  Example Data:.
+    * To run the application, place your customer feedback data in a file named customer_feedback.txt in the root directory.
+    * The file should contain one feedback entry per line.
 
 
